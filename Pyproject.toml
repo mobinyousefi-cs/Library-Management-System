@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "library-ms"
+version = "0.1.0"
+description = "Tkinter + SQLite Library Management System"
+readme = "README.md"
+authors = [{ name = "Mobin Yousefi", email = "[mobinyousefi.cs@gmail.com](mobinyousefi.cs@gmail.com)" }]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+library-ms = "library_ms.main:main"
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
