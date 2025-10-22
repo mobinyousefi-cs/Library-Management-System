@@ -4,7 +4,7 @@
 =================================================================== 
 Project: Library Management System 
 File: theme.py 
-Author: Mobin Yousefi (GitHub: github.com/mobinyousefi) 
+Author: Mobin Yousefi (GitHub: github.com/mobinyousefi-cs) 
 Created: 2025-10-22 
 Updated: 2025-10-22 
 License: MIT License (see LICENSE file for details)
